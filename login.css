@@ -1,0 +1,13 @@
+body{
+    background-image: url("material/img/bg.jpg");
+    background-position:center;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+
+.account{
+    color: aliceblue;
+}
