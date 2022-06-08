@@ -63,8 +63,8 @@ if(isset($_POST['proseslog'])){
     if($cek > 0){
         $_SESSION['username'] = $_POST['username'];
         $_SESSION['password'] = $_POST['password'];
-        $_SESSION['phonenumber'] = $_POST['phonenumber'];
-        $_SESSION['account'] = $_POST['account'];
+        $_SESSION['phonenumber'] = mysqli_query($conn, "select phonenumber from tab_login where username = '$_POST[username]' and password = '$_POST[password]'");
+        $_SESSION['account'] = mysqli_query($conn, "select account from tab_login where username = '$_POST[username]' and password = '$_POST[password]'");
         echo "<meta http-equiv=refresh content=0;URL='index.php'>";
 
     }else{

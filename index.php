@@ -126,12 +126,7 @@ include "session.php";
         <div class="col-md-4">
           <h5>PARTNER</h5>
           <ul>
-            <li>Dana</li>
-            <li>PayPal</li>
-            <li>Fedex</li>
-            <li>MasterCard</li>
-            <li>VISA</li>
-            <li>Other</li>
+           
           </ul>
         </div>
       </div>

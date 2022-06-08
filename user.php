@@ -77,12 +77,7 @@
             <td><?= $_SESSION['username']; ?></td>
             <td></td>
         </tr>
-        <tr>
-            <td>Password:</td>
-            <td><?= $_SESSION['username']; ?></td>
-            <td></td>
-            
-        </tr>
+        
         <tr>
             <td>Phone number:</td>
             <td><?= $_SESSION['phonenumber']; ?></td>
